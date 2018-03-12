@@ -1,0 +1,118 @@
+body {
+    direction: rtl;
+    background-image: url('../img/bg-texture.png');
+    font-family: 'Heebo', sans-serif;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    color: #121212;
+    font-size: 20px;
+    font-weight: 400;
+    line-height:30px;
+}
+
+header {
+    text-align: center;
+    margin:60px;
+}
+
+header h1 {
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 90px;
+    border-bottom: #121212 1px solid;
+    border-top: #121212 1px solid;
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+header p {
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    padding: 5px 0;
+}
+
+header p span.decoration {
+    background-image: url('../img/decoration.png');
+}
+
+section#career {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+h2 {
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 34px;
+}
+
+section#career ol li {
+    list-style-type:none;
+}
+
+span.hiddenimg {
+    position: absolute;
+    display: none;
+}
+
+span.hiddenimg:hover {
+    position: absolute;
+    display: initial;
+}
+
+section#career ol li .years {
+    text-decoration: underline;
+}
+
+#Things {
+    float: right;
+    display: inline-block;
+    width: 70%;
+}
+
+span.ThingsName {
+    font-weight: 500    ;
+    color: #0a6350;
+}
+
+#lookFor {
+    float: left;
+    display: inline-block;
+    width: 30%;
+}
+
+#lookFor ul li {
+    display: inline;
+    list-style-type: none;
+    padding: 10px;
+}
+
+#lookFor ul li:hover {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+    }
+
+
+    #lookFor ul li img {
+        background-color: #fff;
+        border-radius: 50%;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        box-shadow: 0 0 1px rgba(0,0,0,0);
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -moz-osx-font-smoothing: grayscale;
+        overflow: hidden;
+        -webkit-transition-duration: .3s;
+        transition-duration: .3s;
+        -webkit-transition-property: color,background-color;
+        transition-property: color,background-color;
+    }
+
+    #lookFor ul li img:hover {
+        background-color: rgba(255, 255, 255, 0.00);
+    }
