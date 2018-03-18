@@ -210,7 +210,7 @@ hr {
 }
 
 a#richkidText {
-    color: #f15b55;
+    color: #f15b55 !important;
     text-decoration: none;
 }
 
@@ -219,7 +219,7 @@ a:hover#richkidText {
 }
 
 a#Mashyatext {
-    color: #572600;
+    color: #572600 !important;
     text-decoration: none;
 }
 
@@ -228,7 +228,7 @@ a:hover#Mashyatext {
 }
 
 a#Masasiatext {
-    color: #343030;
+    color: #343030 !important;
     text-decoration: none;
 }
 
