@@ -1,0 +1,250 @@
+body {
+    direction: rtl;
+    background-image: url('../img/bg-texture.png');
+    font-family: 'Heebo', sans-serif;
+    background-color: #ffffff;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    color: #121212;
+    font-size: 20px;
+    font-weight: 400;
+    line-height:30px;
+}
+
+header {
+    margin-top: 30px;
+    height: 100px;
+}
+
+header h1.logo {
+    float: left;
+    display: inline-block;
+    width: 25%;
+}
+
+header h1 a img {
+    width: 165px;
+    float: left;
+}
+
+#nav1 {
+    margin-top: 15px;
+    float:right;
+    display: inline-block;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    font-family: 'Heebo medium',, sans-serif;
+    border-top: #ffc661 2px solid;
+    border-bottom: #ffc661 2px solid;
+    margin-left: 15px;
+    width: 110px;
+    display: block;
+    color: #121212;
+    font-size: 19px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 500;
+    padding: 1px 0px;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0,0,0,0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+    -webkit-transition-duration: .35s;
+    transition-duration: .35s;
+    -webkit-transition-property: color,background-color;
+    transition-property: color,background-color;
+}
+
+header nav ul li a:hover {
+    background-color: #ffc661;
+}
+
+header nav ul li a:active {
+    background-color: #e7a229;
+    border-top: #e7a229 2px solid;
+    border-bottom: #e7a229 2px solid;
+}
+
+header nav ul li a.active_nav {
+    background-color: #ffc661;
+}
+
+header nav ul li a.active_nav:active {
+    background-color: #e7a229;
+    border-top: #e7a229 2px solid;
+    border-bottom: #e7a229 2px solid;
+}
+
+#bread {
+    margin-top: -30px;
+}
+
+#bread ul li a {
+    font-size: 14px;
+    display: inline-block;
+    padding-left: 7px;
+    color: #121212;
+    text-decoration:none;
+}
+
+#bread ul li a:hover {
+    font-size: 14px;
+    display: inline-block;
+    padding-left: 7px;
+    color: #a56900;
+    text-decoration: none;
+}
+
+#bread ul li a:after {
+    content: ">";
+    font-size: 14px;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+#bread ul li {
+    font-size: 14px;
+    display: inline-block;
+}
+
+#welcome {
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 100px; 
+}
+
+#welcome p {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 70px;
+    text-align: center;
+}
+
+#main_text p {
+    float: right;
+    display: inline-block;
+    width: 65%;
+}
+
+#main_text img {
+    float: left;
+    width: 370px;
+    display: inline-block;
+    width: 30%;
+}
+
+footer {
+    display: block;
+}
+
+#lookFor {
+    display: inline-block;
+    width: 100%;
+}
+
+#lookFor p {
+    font-weight: 500;
+    display: inline-block;
+    float: right;
+    padding-top: 15px;
+}
+
+#lookFor ul li {
+    display: inline;
+    list-style-type: none;
+    padding: 10px;
+}
+
+#lookFor ul li:hover {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+    }
+
+
+#lookFor ul li img {
+    background-color: #fff;
+    border-radius: 50%;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0,0,0,0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    -webkit-transition-property: color,background-color;
+    transition-property: color,background-color;
+}
+
+#lookFor ul li img:hover {
+    background-color: rgba(255, 255, 255, 0.00);
+}
+
+#innerpage_text > h2 {
+    font-size: 42px;
+    margin: 20px 0px;
+    line-height: 46px;
+}
+
+#innerpage_text > h3 {
+    font-size: 22px;
+}
+
+hr {
+    clear: both;   
+}
+
+#innerpage_text {
+    width: 70%;
+}
+
+a#richkidText {
+    color: #f15b55;
+    text-decoration: none;
+}
+
+a:hover#richkidText {
+    text-decoration: underline;
+}
+
+a#Mashyatext {
+    color: #572600;
+    text-decoration: none;
+}
+
+a:hover#Mashyatext {
+    text-decoration: underline;
+}
+
+a#Masasiatext {
+    color: #343030;
+    text-decoration: none;
+}
+
+a:hover#Masasiatext {
+    text-decoration: underline;
+}
+
+#innerpage_text a {
+    color: #ea9f1a;
+}
+
+#innerpage_text a:hover {
+    color: #ffc661;
+    background-color:#121212;
+}
+
+#innerpage_text a:active {
+    color: #ea9f1a;
+}
