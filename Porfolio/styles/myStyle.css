@@ -180,7 +180,7 @@ footer p {
 }
 
 #welcome h1 {
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 700;
     animation: 1s ease-out 0s 1 FadeInH1;
 }
@@ -206,7 +206,7 @@ footer p {
 }
 
 #welcome p {
-    font-size:32px;
+    font-size:26px;
     animation: 1.5s ease-out 0s 1 FadeInp;
 }
 
